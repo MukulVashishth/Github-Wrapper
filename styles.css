@@ -46,8 +46,6 @@ a {
 .card {
     width: 300px;
     background: #18191c;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-      rgba(0, 0, 0, 0.22) 0px 10px 10px;
     padding: 12px;
     margin: 20px;
     text-align: center;
@@ -61,7 +59,7 @@ img {
 }
 
 img {
-  border: 4px solid;
+  border: 3px solid;
 }
 
 .card-title {
@@ -85,4 +83,25 @@ img {
 .card-description {
     height: 100px;
     overflow: hidden;
+}
+
+#reposInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.repoList {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.heading {
+    font-size: 25px;
+}
+
+#options {
+    font-size: 18px;
 }
